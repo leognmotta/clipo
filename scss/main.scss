@@ -1,0 +1,11 @@
+// import custom variables
+@import './variables/variables';
+
+// import bootstrap
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+
+//import custom styles
+@import './layouts/layout';
+@import './navbar/navbar';
+
+/*# sourceMappingURL=main.css.map */
