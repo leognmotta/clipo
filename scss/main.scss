@@ -1,12 +1,13 @@
-// import custom variables
-@import './variables/variables';
-
-// import bootstrap
-@import '../node_modules/bootstrap/scss/bootstrap.scss';
-
-//import custom styles
-@import './layouts/layout';
-@import './layouts/navbar';
-@import './layouts/header';
-
-/*# sourceMappingURL=main.css.map */
+// Core variables and mixins
+@import 'variables.scss';
+@import 'mixins.scss';
+// Global CSS
+@import 'global.scss';
+// Components
+@import 'navbar.scss';
+@import 'masthead.scss';
+@import 'services.scss';
+@import 'team.scss';
+@import 'timeline.scss';
+@import 'contact.scss';
+@import 'footer.scss';
